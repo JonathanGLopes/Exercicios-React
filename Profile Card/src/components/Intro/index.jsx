@@ -5,8 +5,7 @@ export default function Intro() {
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab impedit
         neque, ex, quidem corporis asperiores culpa amet inventore doloribus
-        eligendi optio exercitationem sed non laborum magnam? Dignissimos error
-        qui itaque!
+        eligendi optio exercitationem sed non laborum magnam?
       </p>
     </div>
   );
