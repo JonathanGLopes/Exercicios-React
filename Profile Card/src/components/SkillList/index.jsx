@@ -22,6 +22,16 @@ const powers = [
     level: "Intermediate",
     color: "#DC143C",
   },
+  {
+    skill: "Santoryu",
+    level: "Intermediate",
+    color: "#7FFF00",
+  },
+  {
+    skill: "Susano'o",
+    level: "Advanced",
+    color: "#8A2BE2",
+  },
 ];
 
 export default function SkillList() {
