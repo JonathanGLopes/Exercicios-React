@@ -3,9 +3,9 @@ import "../public/index.css";
 
 export default function App() {
   const messages = [
-    "Learn React ⚛️",
-    "Apply for jobs 💼",
-    "Invest your new income 🤑",
+    "Aprender React ⚛️",
+    "Aplicar para vagas 💼",
+    "Investir bem seu dinheiro 🤑",
   ];
 
   const [step, setStep] = useState(1);
@@ -33,7 +33,7 @@ export default function App() {
           </div>
 
           <p className="message">
-            Step {step}: {messages[step - 1]}
+            Passo {step}: {messages[step - 1]}
           </p>
 
           <div className="buttons">
@@ -41,13 +41,13 @@ export default function App() {
               style={{ backgroundColor: "#7950F2", color: "#FFF" }}
               onClick={handlePrevious}
             >
-              Previous
+              Anteior
             </button>
             <button
               style={{ backgroundColor: "#7950F2", color: "#FFF" }}
               onClick={handleNext}
             >
-              Next
+              Próximo
             </button>
           </div>
         </div>
