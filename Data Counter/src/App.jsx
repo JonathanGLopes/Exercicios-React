@@ -13,10 +13,14 @@ function App() {
 function Counter() {
   const [step, setStep] = useState(1);
 
+  function handleDecrease() {
+    if (step >= 1) setStep(step - 1);
+  }
+
   return (
     <div>
       <div className="buttons">
-        <button onClick={() => setStep((s) => s - 1)}>-</button>
+        <button onClick={handleDecrease}>-</button>
         <span>Step: {step}</span>
         <button onClick={() => setStep((s) => s + 1)}>+</button>
       </div>
