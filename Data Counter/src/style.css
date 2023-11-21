@@ -16,10 +16,24 @@
 
 button {
   padding: 10px;
-  border-radius: 50%;
+  border-radius: 20%;
   border: 1px solid black;
 }
 
 p {
   margin-top: 2rem;
+}
+
+.input-count {
+  margin: 0 1rem 0 1rem;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.input-range {
+  margin-right: 1rem;
+}
+
+div {
+  margin-top: 1rem;
 }
